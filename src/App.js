@@ -58,9 +58,13 @@ function App() {
       <Header />
       <main>
         <div className="tasks-header">
-          <span>done</span>
-          <span>{`TASKS (${tasksToDisplay.length} / ${tasks.length})`}</span>
-          <span>delete</span>
+          <div className="left">
+            <span className="done">done</span>
+            <span>{`TASKS (${tasksToDisplay.length} / ${tasks.length})`}</span>
+          </div>
+          <div className="right">
+            <span>delete</span>
+          </div>
         </div>
 
         <div className="tasks-list">{tasksToDisplay}</div>
