@@ -113,3 +113,17 @@ footer {
 footer span {
   font-weight: bold;
 }
+
+/* RESPONSIVE */
+@media (max-width: 800px) {
+  .new-task input {
+    font-size: 15px;
+  }
+  .new-task button {
+    font-size: 12px;
+  }
+  .tasks-header,
+  .tasks-list {
+    font-size: 14px;
+  }
+}
